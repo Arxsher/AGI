@@ -40,7 +40,7 @@ const Slide1 = () => {
           </div>
           <div className="footer-col" style={{ gridColumn: "3" }}>
             <span className="footer-label">WEBSITE</span>
-            <span className="footer-value">www.yourwebsite.com</span>
+            <span className="footer-value">www.agi-bice.vercel.app</span>
           </div>
         </footer>
       </div>
