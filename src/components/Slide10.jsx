@@ -1,7 +1,7 @@
 import React from 'react';
 import './Slide10.css';
-import alphaImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/alphago_2016_1772117850089.png';
-import transImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/attention_transformer_2017_1772117875757.png';
+const alphaImg = '/alphago.png';
+const transImg = '/transformer_2017.png';
 
 const Slide10 = () => {
     return (

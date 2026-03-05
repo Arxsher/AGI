@@ -1,7 +1,7 @@
 import React from 'react';
 import './Slide9.css';
-import calcImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/calculator_era_1950s_1772117761596.png';
-import kaspImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/media__1772118054223.png';
+const calcImg = '/calculator_era.png';
+const kaspImg = '/kasparov.png';
 
 const Slide9 = () => {
     return (

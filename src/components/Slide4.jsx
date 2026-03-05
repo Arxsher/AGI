@@ -1,10 +1,10 @@
 import React from 'react';
 import { Asterisk, ArrowDownLeft } from 'lucide-react';
 import './Slide4.css';
-import calcImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/calculator_era_1950s_1772117761596.png';
-import kaspImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/media__1772118054223.png';
-import alphaImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/alphago_2016_1772117850089.png';
-import transImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/attention_transformer_2017_1772117875757.png';
+const calcImg = '/calculator_era.png';
+const kaspImg = '/kasparov.png';
+const alphaImg = '/alphago.png';
+const transImg = '/transformer_2017.png';
 
 
 const timelineData = [

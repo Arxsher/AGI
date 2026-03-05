@@ -1,6 +1,6 @@
 import React from 'react';
 import './Slide18.css';
-import agiImg from '../../../../.gemini/antigravity/brain/9b95a548-6ebe-442d-8256-8c510d72cf1e/brutalist_agi_architecture_1772666126658.png';
+const agiImg = '/agi_architecture.png';
 
 const Slide18 = () => {
     return (
