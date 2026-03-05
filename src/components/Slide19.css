@@ -1,0 +1,161 @@
+.slide19-card {
+    background-color: #f6f6f6 !important;
+    /* Extremely light grey/off-white */
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+}
+
+/* Top Right Branding */
+.slide19-branding {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+    font-size: 0.55rem;
+    color: #888;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Main Layout */
+.slide19-layout {
+    display: flex;
+    align-items: center;
+    /* Center the two columns vertically */
+    padding: 0 8%;
+    gap: 8%;
+    height: 100%;
+}
+
+/* Left Column: Big Text */
+.slide19-left {
+    flex: 0 0 62%;
+}
+
+.slide19-big-text {
+    font-family: inherit;
+    font-size: clamp(2.5rem, 4.5vw, 4.5rem);
+    /* Reduced from 5.5vw */
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    /* Relaxed tracking slightly */
+    line-height: 1.05;
+    /* Increased from 0.92 to prevent overlapping */
+    margin: 0;
+    color: #111;
+}
+
+.text-light-grey {
+    color: #9e9e9e;
+    /* Darker silver to ensure readability against background */
+}
+
+.text-dark {
+    font-weight: 600;
+}
+
+/* Right Column: Info Block */
+.slide19-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-right: 5%;
+}
+
+.slide19-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.slide19-icon-pill {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    /* Squircle */
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.slide19-meta-label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.slide19-date {
+    font-size: clamp(2.5rem, 3.5vw, 3.5rem);
+    font-weight: 400;
+    /* Regular weight */
+    letter-spacing: -0.04em;
+    color: #111;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.slide19-body-text {
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+    /* Made text larger */
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    max-width: 95%;
+}
+
+/* Bottom Left: Navigation */
+.slide19-bottom-left {
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.slide19-circle-btn {
+    width: 52px;
+    /* Increased size */
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.slide19-circle-btn:hover {
+    background: #eaeaea;
+}
+
+.slide19-pill-btn {
+    font-size: 0.8rem;
+    /* Increased text size */
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.05em;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 14px 28px;
+    /* Bigger tap area */
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.2s;
+}
+
+.slide19-pill-btn:hover {
+    background: #eaeaea;
+}

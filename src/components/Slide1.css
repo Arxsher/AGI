@@ -1,0 +1,159 @@
+.slide-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #dbdbdb;
+  /* Match the grey background outside the slide */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 6%;
+  position: relative;
+}
+
+.slide-card {
+  width: 100%;
+  max-width: 1400px;
+  aspect-ratio: 16 / 10;
+  background-color: #fafafa;
+  border-radius: 32px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 6%;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-icon {
+  color: #8c8c8c;
+}
+
+.logo-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.03em;
+  margin: 0;
+  padding-right: 8px;
+}
+
+.presentation-badge {
+  font-size: 0.70rem;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid #dcdcdc;
+  padding: 6px 16px;
+  border-radius: 30px;
+}
+
+.btn-outline {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.05em;
+  background: transparent;
+  border: 1px solid #dcdcdc;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+  background: #f0f0f0;
+  border-color: #c0c0c0;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #dcdcdc;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-icon:hover {
+  background: #f0f0f0;
+  border-color: #c0c0c0;
+}
+
+.slide-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 6%;
+}
+
+.main-title {
+  font-size: clamp(4rem, 11vw, 12rem);
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  color: #1a1a1a;
+  margin: 0 0 24px 0;
+  line-height: 0.9;
+}
+
+.presenter {
+  font-size: 1.5rem;
+  color: #666;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.presenter strong {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.slide-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #e8e8e8;
+  /* slightly darker than card body */
+  padding: 4% 6%;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7b7b7b;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.footer-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.02em;
+}

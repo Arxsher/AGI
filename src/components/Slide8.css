@@ -1,0 +1,80 @@
+.bg-dark-v2 {
+    background-color: #0e0e0e !important;
+    /* Slightly deeper dark for Section 2 */
+    color: #ffffff;
+}
+
+.section-badge-v2 {
+    position: absolute;
+    bottom: 8%;
+    left: 6%;
+}
+
+.section-badge-v2 span {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: 0.05em;
+    background-color: #e8e8e8;
+    padding: 8px 24px;
+    border-radius: 30px;
+}
+
+.large-index-v2 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: clamp(10rem, 25vw, 25rem);
+    font-weight: 500;
+    color: #333;
+    /* More visible grey index */
+    line-height: 1;
+    letter-spacing: -0.05em;
+    opacity: 1;
+}
+
+.section-title-container-v2 {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.btn-icon-v4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #444;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.top-right-info-v2 {
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    text-align: right;
+}
+
+.branding-text {
+    font-size: 0.55rem;
+    font-weight: 700;
+    color: #888;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.small-description {
+    font-size: clamp(0.9rem, 1.2vw, 1.4rem);
+    color: #ffffff;
+    line-height: 1.4;
+    margin: 0;
+}

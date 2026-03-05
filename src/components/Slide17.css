@@ -1,0 +1,93 @@
+.slide17-card {
+    background-color: #111111 !important;
+    color: #ffffff;
+}
+
+.slide17-header {
+    padding: 5% 6% 2%;
+    text-align: center;
+}
+
+.slide17-title {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.slide17-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 6% 2%;
+    gap: 6%;
+}
+
+/* Left Diagram */
+.slide17-diagram {
+    flex: 0 0 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recursive-svg {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+}
+
+/* Right Text */
+.slide17-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slide17-subtitle {
+    font-size: clamp(1.6rem, 2.8vw, 2.8rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.15;
+}
+
+.slide17-system-fn {
+    font-size: clamp(0.85rem, 1.1vw, 1.2rem);
+    color: #999;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.slide17-body {
+    font-size: clamp(1.3rem, 2.2vw, 2.2rem);
+    font-weight: 500;
+    color: #e0e0e0;
+    line-height: 1.35;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.text-highlight {
+    color: #e05a33;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Footer */
+.slide17-footer {
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slide17-footer .copyright-text {
+    font-size: 0.6rem;
+    color: #555;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

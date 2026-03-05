@@ -1,0 +1,277 @@
+.slide12-card {
+    padding: 6% 8%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    /* Changed to match image background */
+}
+
+.slide12-header {
+    margin-bottom: 60px;
+}
+
+.slide12-title {
+    font-size: clamp(1.8rem, 3.5vw, 3rem);
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+    letter-spacing: -0.03em;
+}
+
+.diagram-layout {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Annotations */
+.annotation-text {
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.annotation-text strong {
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+.annotation-left {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow-line-left {
+    width: 60px;
+    height: 1px;
+    background-color: #1a1a1a;
+    position: relative;
+}
+
+.arrow-line-left::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -4px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 6px solid #1a1a1a;
+}
+
+.arrow-line-left::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -200%;
+    height: 400%;
+    width: 1px;
+    background-color: #1a1a1a;
+}
+
+
+.annotation-right {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow-line-right {
+    width: 60px;
+    height: 1px;
+    background-color: #1a1a1a;
+    position: relative;
+}
+
+.arrow-line-right::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -4px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #1a1a1a;
+}
+
+.annotation-bottom {
+    position: absolute;
+    bottom: -10%;
+    left: 45%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.arrow-curve-down {
+    margin-top: -60px;
+    display: none;
+}
+
+.max-w {
+    max-width: 400px;
+}
+
+/* CSS Diagram Styling */
+.center-diagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+    padding-bottom: 20px;
+}
+
+.generated-transformer-diagram {
+    max-width: 50%;
+    /* Ensuring it leaves room for annotations */
+    max-height: 100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    /* Blends nicely if there is slight off-white */
+}
+
+.stack-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 160px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.decoder-stack {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.decoder-main-box {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.encoder-stack {
+    align-self: flex-end;
+}
+
+.stack-header {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #444;
+    padding: 4px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.border-top {
+    border-top: 1px dashed #b0b0b0;
+    margin-top: 4px;
+    padding-top: 6px;
+}
+
+.stack-item {
+    width: 100%;
+    padding: 6px 4px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.white-item {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* Replaced orange with a deep, stark charcoal for thematic consistency */
+.highlight-item {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #1a1a1a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.connector-bottom {
+    height: 16px;
+    width: 1px;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+}
+
+.circle-op {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #1a1a1a;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.stack-footer {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.stack-top-nodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mini-node {
+    padding: 4px 16px;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 16px;
+    background-color: #1a1a1a;
+}
+
+.cross-connection {
+    margin: 0 10px;
+}
